@@ -1,5 +1,3 @@
-# project-draft
-this is where the project info will go
 # Detecting and Monitoring Rodents Using Camera Traps and Machine Learning Versus Live Trapping for Occupancy Modeling
 Authors: Jaran Hopkins, Gabriel Marcelo Santos-Elizondo, Francis Villablanca
 
