@@ -18,4 +18,6 @@ Below we will outline the steps for using a pre-trained Yolov5 model with new im
 
 ### Step 1: Image Annotation (CVAT or Roboflow)
 The first step in training an image recognition model is to annotate a set of images that will be used. Annotation tools like CVAT and Roboflow facilitate the drawing, naming, and formating of bounding boxes around the target within an image.
-INSERT GIF OF DRAWING BOUNDING BOX
+
+![Peek 2023-02-20 12-04](https://user-images.githubusercontent.com/52707386/220190410-3be47602-5478-486f-b2c7-2eb8767f47d4.gif)
+Example with [Roboflow](https://docs.roboflow.com/annotate)
