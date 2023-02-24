@@ -44,10 +44,18 @@ Augmentations with Roboflow
 From [Roboflow API](https://app.roboflow.com/)
 
 ### Step 4: Training
-redirect to Yolo
+Yolov5x was used for training the model. To learn how to implement it, modify it, and deploy it navigate to [Ultralytic's github](https://github.com/ultralytics/yolov5) and the [documentation](https://github.com/ultralytics/yolov5#documentation) for specifics and code. The specific version of the model we used can be accessed [here (version 3.1)](https://doi.org/10.5281/zenodo.4154370).
 
-### Step 5: Checking Model
+[Model Code](https://github.com/ultralytics/yolov5/blob/master/train.py)
+
+### Step 5: Checking Model Health
+To assess model health and proper training, we looked at validation loss, training loss, and mAP. Ultralytic's YoloV5 API already automatically produces these values in nice graphs after every train:
+
+![image](https://user-images.githubusercontent.com/52707386/221257905-ac3422b6-c186-43d8-a960-ffb6c5c8d592.png)
+From Ultralytic's GitHub, on checking model health and ['Tips for Best Training Results'](https://github.com/ultralytics/yolov5/wiki/Tips-for-Best-Training-Results).
 
 ### Step 6: Analysis
+After training, prediction can be produced by running images through the model with [Ultralytic's detect.py](https://github.com/ultralytics/yolov5/blob/master/train.py). The code usage allows for adding custom flags in the 'detect.py' command. More details and tutorials can be found in Ultralytic's [documentation](https://github.com/ultralytics/yolov5#documentation) and [Ultralytic's github](https://github.com/ultralytics/yolov5).
 
 ### Step 7: Image Renaming
+Rodent names (object labels from analysis), were appended to file names by editing [Ultralytic's detect.py](https://github.com/ultralytics/yolov5/blob/master/train.py).
