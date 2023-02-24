@@ -27,11 +27,21 @@ Example with [Roboflow](https://docs.roboflow.com/annotate)
 Once we finished annotating an initial set of images, vetting out images with targets that were blurry or cut-off, we checked to see there was sufficient representation of each target species. This value changes depending on the total amount of images annotated.
 
 ### Step 2: Image Preparation
-Models 'see' images as a matrix of pre-determined size. We need to make sure the size of the image being passed to the model is the same as that which the model is expecting. In our case, we resized our images to 640x640 using OpenCV (Open Source Computer Vision Library). This can also be accomplished automatically through Roboflow's app. If resizing manually, make sure that the resulting bounding box has been resized and relocated correctly.
+Models 'see' images as a matrix of values of pre-determined size. We need to make sure the size of the image being passed to the model is the same as that which the model is expecting. In our case, we resized our images to 640x640 using OpenCV (Open Source Computer Vision Library). This can also be accomplished automatically through Roboflow's app. If resizing manually, make sure that the resulting bounding box has been resized and relocated correctly.
 
 [Image resizing example in Google Colab](https://github.com/rodentid-draft/project-draft/blob/main/Example_Resize_bb_and_image.ipynb)
 
 ### Step 3: Image Augmentation
+Image augmentation for our set was done with Roboflow's built-in tool and albumentation's open-source library. Either one or both can be used depending on the level of control needed. Albumentations offers a higher level of control while Roboflow's api makes adding augmentations a breeze, but limits you in the amount you set.
+
+Augmentations with Albumentations
+- [Getting Started](https://github.com/albumentations-team/albumentations#getting-started)
+- [Augmentation for Object Detection](https://albumentations.ai/docs/getting_started/bounding_boxes_augmentation/#bounding-boxes-augmentation)
+- [Examples](https://albumentations.ai/docs/examples/example_bboxes2/)
+
+Augmentations with Roboflow
+![Augmentation with Roboflow](https://user-images.githubusercontent.com/52707386/221254106-0fecd8c5-05b6-4133-965b-23c9a480255b.png)
+From [Roboflow API](https://app.roboflow.com/)
 
 ### Step 4: Training
 redirect to Yolo
