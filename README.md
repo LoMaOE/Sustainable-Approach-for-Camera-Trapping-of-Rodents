@@ -4,7 +4,12 @@ Authors: Jaran Hopkins, Gabriel Marcelo Santos-Elizondo, Francis Villablanca
 
 Available at: Pending
 
-![Species_ID](https://user-images.githubusercontent.com/52707386/127080011-22a3a9d5-acd3-4adb-afb5-0318b1cde7cf.GIF)
+<p align="center"> 
+  <img width="700" height="644" src="https://github.com/rodentid-draft/project-draft/blob/main/rodent_analysis_example.gif?raw=true"> 
+  <br>
+  Short video of results from machine learning model employment
+  <br>
+</p>
 
 ## Project Summary 
 An artificial-intelligence machine-learning model was developed to process camera trap images for rodent species level identification using YoloV5.  We took a common monitoring method for mammals, camera traps, and combined such with ML image processing to provide a drastically lower-effort methodology for monitoring.  We were able to use our results from our ML model to perform informative statistical analysis on both rodent detection and occurrence.  Our findings showed that cameras, compared to commonly used live traps, provide far greater detection of rodents and more accurate insight into their occurrence.  Given the success of cameras for rodent detection and occurrence estimates, we further found that combining cameras with ML image processing, requires much lower effort and can provide a practical and sustainable methodology for conservation efforts and researchers.  
