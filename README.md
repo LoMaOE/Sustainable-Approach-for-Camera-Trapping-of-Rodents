@@ -15,7 +15,7 @@ Available at: Pending
 An artificial-intelligence machine-learning model was developed to process camera trap images for rodent species level identification using YoloV5.  We took a common monitoring method for mammals, camera traps, and combined such with ML image processing to provide a drastically lower-effort methodology for monitoring.  We were able to use our results from our ML model to perform informative statistical analysis on both rodent detection and occurrence.  Our findings showed that cameras, compared to commonly used live traps, provide far greater detection of rodents and more accurate insight into their occurrence.  Given the success of cameras for rodent detection and occurrence estimates, we further found that combining cameras with ML image processing, requires much lower effort and can provide a practical and sustainable methodology for conservation efforts and researchers.  
 
 ### Untrained models vs. pre-trained models vs. transfer learning
-Untrained models are neural networks that have seen no data, we specify this since most readily available open-source models have been pre-trained on a large dataset. This pre-training is what allows them to learn new objects faster and more efficiently. Taking a model like this and introducing it to a new set of images is called transfer learning. We are taking what the model already knows and using that information to learn the new images more effectively.
+Untrained models are neural networks that have seen no data, we specify this since most readily available open-source models have been pre-trained on a large dataset. This pre-training is what allows models to learn new objects faster and more efficiently. Taking a model like this and introducing it to a new set of images is called transfer learning. We are taking what the model already knows and using that information to learn the new images more effectively.
 
 In our project, we used [Yolov5](https://github.com/ultralytics/yolov5) pre-trained on the [COCO dataset](https://cocodataset.org/#home). We then used transfer learning to train the pre-trained Yolov5 model on a set of rodent images.
 
@@ -49,7 +49,7 @@ Augmentations with Roboflow
 From [Roboflow API](https://app.roboflow.com/)
 
 ### Step 4: Training
-Yolov5x was used for training the model. To learn how to implement it, modify it, and deploy it navigate to [Ultralytic's github](https://github.com/ultralytics/yolov5) and the [documentation](https://github.com/ultralytics/yolov5#documentation) for specifics and code. The specific version of the model we used can be accessed [here (version 3.1)](https://doi.org/10.5281/zenodo.4154370).
+Yolov5x was used for training the model. To learn how to implement it, modify it, and deploy it, navigate to [Ultralytic's github](https://github.com/ultralytics/yolov5) and the [documentation](https://github.com/ultralytics/yolov5#documentation) for specifics and code. The specific version of the model we used can be accessed [here (version 3.1)](https://doi.org/10.5281/zenodo.4154370).
 
 [Model Code](https://github.com/ultralytics/yolov5/blob/master/train.py)
 
