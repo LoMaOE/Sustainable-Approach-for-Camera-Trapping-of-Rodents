@@ -7,8 +7,6 @@ Available at: [Frontiers in Ecology and Evolution](https://www.frontiersin.org/a
 <p align="center"> 
   <img width="700" height="644" src="https://github.com/rodentid-draft/project-draft/blob/main/rodent_analysis_example.gif?raw=true"> 
   <br>
-  https://github.com/rodentid-draft/project-draft/blob/main/rodent_analysis_example.gif
-  <br>
   Short video of results from machine learning model employment
   <br>
 </p>
