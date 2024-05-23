@@ -2,7 +2,7 @@ Source code for the paper:
 # Detecting and Monitoring Rodents Using Camera Traps and Machine Learning Versus Live Trapping for Occupancy Modeling
 Authors: Jaran Hopkins, Gabriel Marcelo Santos-Elizondo, Francis Villablanca
 
-Available at: Pending
+Available at: [Frontiers in Ecology and Evolution](https://www.frontiersin.org/articles/10.3389/fevo.2024.1359201/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Ecology_and_Evolution&id=1359201)
 
 <p align="center"> 
   <img width="700" height="644" src="https://github.com/rodentid-draft/project-draft/blob/main/rodent_analysis_example.gif?raw=true"> 
